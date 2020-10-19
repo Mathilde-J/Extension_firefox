@@ -7,12 +7,12 @@
   "description": "Adds a black and white filter",
 
   "icons": {
-    "48": "icons/border-48.png"
+    "48": "icone.png"
   },
 
   "content_scripts": [
     {
-      "matches": ["*://*....../*"],
+      "matches": ["<all_urls>"],
       "js": ["blackandwhite.js"]
     }
   ]
