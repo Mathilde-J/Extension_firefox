@@ -1,7 +1,5 @@
 document.body.style.border = "5px solid red";
 document.body.style.backgroundColor = "#FDCBC0";
-// document.body.style.filter = "grayscale(100%)";
-
 
 var h4Elements = document.getElementsByTagName("h4");
 for(var i = 0; i < h4Elements.length; i++) {
@@ -26,4 +24,3 @@ for(var i = 0;i < aElements.length; i++){
     aElements[i].style.fontFamily = "Georgia,serif";
 }
 var img = document.getElementsByTagName("img").src = "./fleur.jpg";
-

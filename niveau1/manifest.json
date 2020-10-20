@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "visuel",
+  "version": "1.0",
+
+  "description": "change font, background, colors",
+
+  "icons": {
+    "48": "icone.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["visuel.js"]
+    }
+  ]
+
+}
