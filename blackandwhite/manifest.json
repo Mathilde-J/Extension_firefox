@@ -10,16 +10,15 @@
     "48": "icone.png"
   },
 
+  "permissions": [
+  "activeTab",
+  "<all_urls>"
+  ],
+
   "browser_action": {
       "default_icon": "icone.png",
       "default_title": "Blackandwhite",
       "default_popup": "popup.html"
-    },
-
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"]
     }
-  ]
 
 }
