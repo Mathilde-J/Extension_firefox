@@ -1,2 +1,2 @@
 # Extension_firefox
-Extension black and white filter 
+Ajoute un filtre noir et blanc quand on appuie sur le nouton "activé" et le désactive quand on appuie sur le bouton "désactivé".
