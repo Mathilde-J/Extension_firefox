@@ -1,0 +1,36 @@
+{
+
+  "manifest_version": 2,
+  "name": "WonderWoman",
+  "version": "1.0",
+
+  "description": "Change the images",
+
+  "icons": {
+    "48": "iconeW.png"
+  },
+
+  "permissions": [
+  "activeTab",
+  "<all_urls>"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["wonderWoman.js"]
+    }
+  ],
+
+  "browser_action": {
+      "default_icon": "iconeW.png",
+      "default_title": "WonderWoman"
+      
+    },
+
+    "web_accessible_resources": [
+    "./images/Hedy.jpg",
+    "./images/Ruth.jpg",
+    "./images/Wonder.jpg"
+  ]
+
+}
