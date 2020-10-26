@@ -1,5 +1,4 @@
 document.body.style.border = "5px solid red";
-document.body.style.backgroundColor = "#FDCBC0";
 
 var h4Elements = document.getElementsByTagName("h4");
 for(var i = 0; i < h4Elements.length; i++) {
